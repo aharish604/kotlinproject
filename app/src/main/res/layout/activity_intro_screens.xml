@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvDummy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btn_next"/>
+    <androidx.viewpager.widget.ViewPager
+            android:id="@+id/intro_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/intro_bullets"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"/>
+
+    <LinearLayout
+            android:id="@+id/intro_bullets"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/intro_bullet_size"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="80dp"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+
+    </LinearLayout>
+    <!--<View-->
+    <!--android:id="@+id/sep_line"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:layout_above="@id/intro_bullets"-->
+    <!--android:alpha=".8"-->
+    <!--android:background="@color/colorPrimaryDark"/>-->
+    <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/sellerbutton"
+            android:text="Get Started"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/intro_button_fontsize"
+            android:textStyle="bold"/>
+
+    <Button
+            android:id="@+id/btn_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/sellerbutton"
+            android:text="@string/skip_button_title"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/intro_button_fontsize"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+</RelativeLayout>

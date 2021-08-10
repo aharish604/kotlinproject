@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "36146585286",
+    "firebase_url": "https://unii-market.firebaseio.com",
+    "project_id": "unii-market",
+    "storage_bucket": "unii-market.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36146585286:android:e928cc3baa027781",
+        "android_client_info": {
+          "package_name": "com.uniimarket.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36146585286-u3qb4g1prircta264dkap9i8jplbu5nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uniimarket.app",
+            "certificate_hash": "d471785f3a3b79667ab1c1922f33701fd6581111"
+          }
+        },
+        {
+          "client_id": "36146585286-o4dvq9oqmmalkc5qu558vgf22ebf3593.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_TACrBd4W7LMcnN-db9zLB60IFJuqlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36146585286-o4dvq9oqmmalkc5qu558vgf22ebf3593.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:padding="10dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/tv_security_alert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Security Alert !"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"/>
+
+
+        <ImageView
+                android:id="@+id/imv_cancel"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/cancel"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+
+        <TextView
+                android:id="@+id/tv_security_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dashboard_text"
+                android:layout_below="@+id/tv_security_alert"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="18sp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/colorBlack"
+        />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

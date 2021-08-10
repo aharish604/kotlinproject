@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#F3B200</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorGreyTransparent">#409A9A9A</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
+    <!-- dots inactive colors -->
+    <color name="intro_bullet_inactive">#cacaca</color>
+    <!-- dots active colors -->
+    <color name="intro_bullet_active">#8E44AD</color>
+    <color name="colorGrey">#9A9A9A</color>
+    <color name="colorProfileGrey">#F5F5F5</color>
+    <color name="colorRed">#FF0000</color>
+    <array name="array_intro_bullet_inactive">
+        <item>@color/colorGrey</item>
+        <item>@color/colorGrey</item>
+        <item>@color/colorGrey</item>
+        <item>@color/colorGrey</item>
+    </array>
+
+    <array name="array_intro_bullet_active">
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+    </array>
+
+
+</resources>

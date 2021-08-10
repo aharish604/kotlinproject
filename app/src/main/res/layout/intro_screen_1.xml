@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/imv_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo_text"/>
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_below="@+id/imv_logo">
+
+
+        <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:src="@drawable/introshopping_latest"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="@dimen/intro_comment_margin"
+                        android:paddingRight="@dimen/intro_comment_margin"
+                        android:text="Welcome to UniiMarket"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp"/>
+
+                <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="@dimen/intro_comment_margin"
+                        android:paddingRight="@dimen/intro_comment_margin"
+                        android:textStyle="bold"
+                        android:text="The app allows students to buy, sell and exchange goods with one another.. all commission free! Its time for you to make some money on the things you no longer need and save on the stuff you want, so let's get started"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
+

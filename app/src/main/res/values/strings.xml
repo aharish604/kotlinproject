@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UniiMarket</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next_button_title">Next</string>
+    <string name="skip_button_title">Skip</string>
+    <string name="done_button_title">Get Started</string>
+    <string name="intro_1_title">Add To Cart</string>
+    <string name="intro_1_desc">Online shopping is so easy. Just Add Items to your cart.</string>
+    <string name="intro_2_title">Check Out</string>
+    <string name="intro_2_desc">Choose right items and select exact quantities for your final purchase!</string>
+    <string name="intro_3_title">Make Payment</string>
+    <string name="intro_3_desc">Enter your debit/credit card details for secure online payment!</string>
+    <string name="intro_4_title">Instant Delivery</string>
+    <string name="intro_4_desc">3 Hours to 3 Days Max. Whatever your location is, Our true commitment!</string>
+    <string name="repeat_intro_title">Repeat Again</string>
+    <string name="repeat_intro_desc">To see the welcome intro slides again, click on the below button</string>
+    <string name="default_notification_channel_id">101</string>
+    <string name="fcm_message">Uni Market</string>
+    <string name="dashboard_text">"Congratulations on making it to UniiMarket! Just a gentle reminder from our team to always stay safe, the Uni offers fantastic meeting points all over the campus, be sure to make the most of them when buying and selling!".</string>
+</resources>

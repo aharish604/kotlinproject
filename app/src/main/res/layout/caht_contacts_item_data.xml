@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:id="@+id/ll_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+    <LinearLayout
+            android:id="@+id/ll_chat_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center|center_vertical"
+                android:gravity="center_vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cimv_contact_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/profile"
+                    app:civ_border_color="@color/colorBlack"
+                    app:civ_border_width="1dp"
+                    />
+
+            <LinearLayout
+                    android:id="@+id/ll_contact_unread"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/red_dot">
+
+                <TextView
+                        android:id="@+id/tv_contact_unread"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="30"
+                android:paddingLeft="10dp">
+
+            <TextView
+                    android:id="@+id/tv_contact_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Naresh"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"/>
+
+            <TextView
+                    android:id="@+id/tv_contact_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Naresh"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorBlack"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_contact_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/tv_contact_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:text="9:15 PM"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
